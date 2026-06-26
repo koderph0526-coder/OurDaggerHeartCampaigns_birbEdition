@@ -1,0 +1,11 @@
+* {
+  marign: 0;
+  padding: 0;
+}
+
+.backdrop {
+  background-image: url(/img/DarkForestOpt2.png);
+  background-attachment: fixed;
+  width: 100vw;
+  overflow: scroll;
+}
