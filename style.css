@@ -9,3 +9,9 @@
   width: 100vw;
   overflow: scroll;
 }
+
+/* Styling for light-mode toggle */
+.backdropBright {
+  background-image: url(/img/BrightForestOpt2.png);
+  width: 100vw;
+}
