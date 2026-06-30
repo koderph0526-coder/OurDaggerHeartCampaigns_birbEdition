@@ -8,10 +8,34 @@
   background-attachment: fixed;
   width: 100vw;
   overflow: scroll;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Styling for light-mode toggle */
 .backdropBright {
   background-image: url(/img/BrightForestOpt2.png);
   width: 100vw;
+  color: #101010;
+}
+
+img {
+  width: 100%;
+}
+
+.redirCharacter {
+  width: 180px;
+  height: 190px;
+  background-color: rgba(245, 245, 245, 0.688);
+  border-radius: 25px;
+}
+
+.chContained {
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  grid-template-rows: repeat(2, 80px);
+}
+.chibiAvatar {
+  width: 80px;
 }
