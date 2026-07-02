@@ -11,6 +11,7 @@
   color: whitesmoke;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 /* Styling for light-mode toggle */
@@ -23,7 +24,30 @@
 img {
   width: 100%;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0;
+  background-color: #101010ad;
+  color: whitesmoke;
+}
 
+.welcomeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #1010109a;
+}
+
+.redirContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .redirCharacter {
   width: 180px;
   height: 190px;
