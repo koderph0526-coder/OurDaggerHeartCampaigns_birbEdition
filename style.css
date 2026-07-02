@@ -31,6 +31,7 @@ nav {
   margin-top: 0;
   background-color: #101010ad;
   color: whitesmoke;
+  height: 35px;
 }
 
 .welcomeDiv {
@@ -40,6 +41,7 @@ nav {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 400px;
   background-color: #1010109a;
 }
 
@@ -48,10 +50,13 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .redirCharacter {
+  text-align: center;
+  padding: 5px;
   width: 180px;
   height: 190px;
-  background-color: rgba(245, 245, 245, 0.688);
+  background-color: #f5f5f5a3;
   border-radius: 25px;
 }
 
@@ -60,6 +65,16 @@ nav {
   grid-template-columns: repeat(2, 80px);
   grid-template-rows: repeat(2, 80px);
 }
+
 .chibiAvatar {
   width: 80px;
+}
+
+.redirSr {
+  text-align: center;
+  padding: 5px;
+  width: 180px;
+  height: 190px;
+  background-color: #f5f5f5a3;
+  border-radius: 25px;
 }
