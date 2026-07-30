@@ -8,13 +8,17 @@ header {
   width: 100vw;
   background-color: #101010ad;
   color: whitesmoke;
+  display: inline-block;
 }
 
-. main {
+nav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0;
+  background-color: #101010ad;
+  color: whitesmoke;
+  height: 35px;
 }
 
 .backdrop {
@@ -35,17 +39,17 @@ header {
   color: #101010;
 }
 
+/* Layout styling for content in main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 100%;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 0;
-  background-color: #101010ad;
-  color: whitesmoke;
-  height: 35px;
 }
 
 .heroBanner {
