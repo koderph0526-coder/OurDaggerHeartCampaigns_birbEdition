@@ -8,7 +8,12 @@ header {
   width: 100vw;
   background-color: #101010ad;
   color: whitesmoke;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  height: 2vw;
+  align-items: center;
+  justify-content: space-evenly;
+  /* Fix this mess!! */
 }
 
 nav {
