@@ -4,21 +4,28 @@
   box-sizing: border-box;
 }
 
-main {
+header {
+  width: 100vw;
+  background-color: #101010ad;
+  color: whitesmoke;
+}
+
+. main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .backdrop {
   background-image: url(/img/DarkForestOpt2.png);
   background-attachment: fixed;
   width: 100vw;
-  /* overflow: scroll; */
   color: whitesmoke;
   display: flex;
   flex-direction: column;
-  /* overflow: hidden; */
+  align-items: center;
+  overflow-x: hidden;
 }
 
 /* Styling for light-mode toggle */
