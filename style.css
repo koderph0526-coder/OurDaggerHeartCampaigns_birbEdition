@@ -1,17 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .backdrop {
   background-image: url(/img/DarkForestOpt2.png);
   background-attachment: fixed;
   width: 100vw;
-  overflow: scroll;
+  /* overflow: scroll; */
   color: whitesmoke;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Styling for light-mode toggle */
@@ -34,6 +41,13 @@ nav {
   height: 35px;
 }
 
+.heroBanner {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcomeDiv {
   display: flex;
   flex-direction: column;
@@ -47,11 +61,11 @@ nav {
 
 .redirContainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
 .redirCharacter {
+  display: flex;
   text-align: center;
   padding: 5px;
   width: 180px;
@@ -70,6 +84,7 @@ nav {
   width: 80px;
 }
 
+/* Styling for Redirecting StoryRecap, which is supposed to show only a few lines of the top of story recap */
 .redirSr {
   text-align: center;
   padding: 5px;
