@@ -16,6 +16,7 @@ header {
   /* Fix this mess!! */
 }
 
+/* Layout for nav bar */
 nav {
   display: flex;
   flex-direction: row;
@@ -23,9 +24,11 @@ nav {
   margin-top: 0;
   background-color: #101010ad;
   color: whitesmoke;
-  height: 35px;
+  height: p40x;
+  width: 85vw;
 }
 
+/* Styling for the custom background image in DarkMode */
 .backdrop {
   background-image: url(/img/DarkForestOpt2.png);
   background-attachment: fixed;
@@ -42,10 +45,10 @@ nav {
   background-image: url(/img/BrightForestOpt2.png);
   width: 100vw;
   color: #101010;
+  /* Please note! To be fixed when everything else is up and running, will be adjusted with JS */
 }
 
 /* Layout styling for content in main */
-
 main {
   display: flex;
   flex-direction: column;
@@ -57,6 +60,7 @@ img {
   width: 100%;
 }
 
+/* Fixing the Hero img to the right size and position */
 .heroBanner {
   width: 75vw;
   display: flex;
@@ -64,6 +68,7 @@ img {
   align-items: center;
 }
 
+/* Styling for the small Welcome message */
 .welcomeDiv {
   display: flex;
   flex-direction: column;
@@ -71,17 +76,33 @@ img {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 400px;
+  padding: 20px;
+  width: 800px;
+  height: 100px;
   background-color: #1010109a;
 }
 
 .redirContainer {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+.textUtility {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  width: 60px;
+  height: 10px;
+  color: black;
+  text-align: center;
 }
 
 .redirCharacter {
   display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 5px;
   width: 180px;
@@ -108,4 +129,8 @@ img {
   height: 190px;
   background-color: #f5f5f5a3;
   border-radius: 25px;
+}
+
+footer {
+  margin-top: 70px;
 }
